@@ -1,3 +1,8 @@
+const rockBtn = document.querySelector('rock');
+const paperBtn = document.querySelector('paper');
+const scissorsBtn = document.querySelector('scissors');
+
+
 let playerScore = 0;
 let computerScore = 0;
 
@@ -58,8 +63,6 @@ function playRound(playerSelection, computerSelection) {
 
 function game() {
 
-    for (let i = 1; i <= 5; i++) {
-        // let userInput = prompt("Rock, Paper, or Scissors?");
         const playerSelection = userInput.toLowerCase();
         const computerSelection = computerPlay();
         const results = playRound(playerSelection, computerSelection);
