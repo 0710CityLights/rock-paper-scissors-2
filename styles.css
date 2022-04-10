@@ -9,37 +9,24 @@ h1 {
     color:#F9FAF8;
 }
 
+.player-labels {
+    color: #F9FAF8;
+}
 
-.score-display {
+
+.score-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
+    margin-top: 2rem;
     gap: 12rem;
 }
 
 .box {
-    background-color: #8ea8c3;
-    opacity: 30%;
-    border-radius: 10px;
-    width: 100px;
-    height: 100px;
-}
-
-.player-label {
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 0;
-    gap: 11rem;
-}
-
-.text {
-    color: #F9FAF8;
-    font-size: 20px;
-}
-
-.score-container {
-    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color:#F9FAF8;
 }
 
 .content {
