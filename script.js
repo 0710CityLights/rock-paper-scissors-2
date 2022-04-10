@@ -1,6 +1,7 @@
-const rockBtn = document.querySelector('rock');
-const paperBtn = document.querySelector('paper');
-const scissorsBtn = document.querySelector('scissors');
+const rockBtn = document.querySelector('.rock');
+const paperBtn = document.querySelector('.paper');
+const scissorsBtn = document.querySelector('.scissors');
+const displayBox = document.querySelector('.score-display');
 
 
 let playerScore = 0;
